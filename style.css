@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1eeee;
+    text-align: center;
+    padding: 50px;
+}
+.img1{
+height: 200px;
+width: 200px;
+}
+.container {
+    background: #7ec3ca;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(155, 21, 21, 0.459);
+    display: inline-block;
+}
+
+input[type="number"] {
+    padding: 10px 15px;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(155, 21, 21, 0.459);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(155, 21, 21, 0.459);
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#remainingGuesses {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #c42f2f;
+}
